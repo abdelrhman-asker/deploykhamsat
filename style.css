@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+a {
+  color: rgba(255, 255, 255, 0.73) !important;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0f2480;
+  font-family: "Cairo", sans-serif;
+  color: white;
+  min-height: 100vh;
+  padding: 50px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100%;
+}
+
+.firstRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.LogoAndText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.boxText {
+  margin: 2vh;
+  border: 2px solid rgba(255, 255, 255, 0.836);
+  color: rgba(255, 255, 255, 0.73) !important;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.midText h2 {
+  width: 60vw;
+  color: rgba(255, 255, 255, 0.871) !important;
+  margin: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 1080px) {
+  .midText h2 {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .midText h2 {
+    font-size: 18px;
+  }
+}
+.ThreeBrothers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.ThreeBrothers h3 {
+  padding: 20px;
+  transform: skew(-20deg);
+  background: #42b8fd;
+}
