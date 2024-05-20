@@ -8,6 +8,8 @@ a {
 }
 
 body {
+  width: 100vw;
+  overflow-x: hidden;
   background-color: #0f2480;
   font-family: "Cairo", sans-serif;
   color: white;
