@@ -8,7 +8,8 @@ a {
 }
 
 body {
-  width: 100vw;
+  min-width: 70vw;
+  max-width: fit-content;
   overflow-x: hidden;
   background-color: #0f2480;
   font-family: "Cairo", sans-serif;
@@ -21,7 +22,6 @@ body {
   align-items: center;
   gap: 50px;
   height: 100%;
-  width: fit-content;
   margin: auto;
 }
 
